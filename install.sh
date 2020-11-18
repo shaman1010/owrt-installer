@@ -21,11 +21,11 @@ echo OpenWRT automatic installer
 echo =================================================================
 
 # Sanity checks first
-if [ ! -d "/lumi" ]; then
-    echo
-    echo Only STOCK firmware supported. Please try another upgrade path.
-    exit -1
-fi
+#if [ ! -d "/lumi" ]; then
+#    echo
+#    echo Only STOCK firmware supported. Please try another upgrade path.
+#    exit -1
+#fi
 
 #if lsmod | grep 8189es >/dev/null; then
 #    echo
