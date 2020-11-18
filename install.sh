@@ -27,11 +27,11 @@ if [ ! -d "/lumi" ]; then
     exit -1
 fi
 
-if lsmod | grep 8189es >/dev/null; then
-    echo
-    echo WiFi module 8189es is not supported by OpenWRT yet.
-    exit -1
-fi
+#if lsmod | grep 8189es >/dev/null; then
+#    echo
+#    echo WiFi module 8189es is not supported by OpenWRT yet.
+#    exit -1
+#fi
 
 echo
 echo Updating time...
